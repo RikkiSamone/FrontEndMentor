@@ -1,0 +1,102 @@
+body{
+    background-color: hsl(47, 88%, 63%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
+    
+    
+}
+
+.blog-card{
+    background-color: hsl(0, 0%, 100%);
+    height: 425px;
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 15px;
+    box-shadow: 5px 10px black;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.picture{
+    width: auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+img{
+   height: 100%;
+   width: 100%;
+   border-radius: 15px;
+}
+
+.blog-topic{
+    background-color: hsl(47, 88%, 63%);
+    width: 25%;
+    height: 25px;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    font-size: 12px;
+    font-family: Figtree, Arial;
+    font-weight: 800;
+}
+
+.date{
+    font-family: Figtree, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    margin-top: 10px;
+    font-weight: 500;
+}
+
+.card-title{
+    margin-top: 20px;
+    font-family: Figtree, Arial;
+    font-weight: 800;
+    font-size: 18px;
+}
+
+.card-body{
+    font-family: Figtree, Arial;
+    font-size: 14px;
+    margin-top: 20px;
+    font-weight: 500;
+    color: hsl(0, 0%, 42%);
+
+}
+
+.avatar{
+    height: 30px;
+    width: 30px;
+    margin-top: 10px;
+}
+
+.author{
+    display: flex;
+    font-family: Figtree, Arial;
+    font-weight: 800; 
+    height: 50px;
+    width: auto;
+}
+
+.name{
+    text-align: left;
+    padding-left: 5px;
+    padding-top: 15px;
+    margin-top: 0;
+    font-size: 14px;
+  
+}
+
+ .attribution {
+    margin-top: 40px;
+     font-size: 11px;
+     text-align: center;
+ }
+
+ .attribution a {
+     color: hsl(228, 45%, 44%);
+ }
