@@ -1,0 +1,127 @@
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 40px;
+    padding: 0px;
+    background-color: hsl(0, 0%, 8%);
+    font-family: Inter, sans-serif;
+
+}
+
+.card-body{
+    background-color: hsl(0, 0%, 12%);
+    width: 300px;  
+    height: 425px;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    border-radius: 10px;
+    
+}
+
+.avatar, img{
+    border-radius: 100%;
+    height: 60px;
+    margin-top: 5px;
+}
+
+.name{
+    color: white;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-bottom: 0;
+    padding: 0;
+    margin-top: 30px;
+}
+h3, h5{
+    padding: 0;
+    margin: 0;
+}
+
+.location{
+    color:  hsl(75, 94%, 57%);
+    margin-top: 5px;
+    padding: 0;
+    font-size: 12px;
+}
+
+.subtitle{
+    color: white;
+    font-size: 12px;
+    margin-top: 25px;
+
+}
+
+.links{
+   
+    justify-content: center;
+    align-content: center;
+}
+
+.btn1, .btn2, .btn3, .btn4, .btn5, .btn6{
+  background-color: hsl(0, 0%, 20%);
+  width: 75%;
+  margin: 12px 12px 12px 30px;
+  padding: 5px;
+  border-radius: 6px;
+  
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 10px;
+
+}
+
+
+.attribution {
+    margin-top: 50px;
+    font-size: 10px;
+    text-align: center;
+    color: white;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+
+
+@media (max-width: 375px){
+    .body {
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            margin: 40px;
+            padding: 0px;
+            background-color: hsl(0, 0%, 8%);
+            font-family: Inter, sans-serif;
+    
+        }
+    .card-body {
+            background-color: hsl(0, 0%, 12%);
+            width: 400px;
+            height: 425px;
+            
+    
+        }
+
+        .btn1,
+        .btn2,
+        .btn3,
+        .btn4,
+        .btn5,
+        .btn6 {
+            background-color: hsl(0, 0%, 20%);
+            width: 75%;
+            margin: 12px 12px 12px 28px;
+            padding: 5px;
+            border-radius: 6px;
+        }
+
+            
+}
